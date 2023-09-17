@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+    <h1>Lista de tareas</h1>
+    <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea">
+    <button id="botonAgregar" onclick="agregarTarea()">Agregar</button>
+    <button id="botonCompletadas" onclick="mostrarCompletadas()">Completas</button>
+    <button id="botonPendientes" onclick="mostrarPendientes()">Pendientes</button>
+
+    <ul id="listaTareas" title="Presiona para marcar como realizada"></ul>   
+    <script src="script.js"></script>    
+</body>
+</html>

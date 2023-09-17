@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,90,121,1) 64%, rgba(0,212,255,1) 100%);
+    color: rgb(255, 255, 255);
+     }
+
+ #nuevaTarea {
+    height: 25px;
+    width: 300px;
+    background-color: transparent;
+    border-color: rgb(0, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+     }
+
+
+#botonAgregar {
+    margin-left: 20px;
+    height: 40px;
+    width: 80px;
+    background-color: #00B249;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.delete {
+    margin-left: 20px;
+    height: 25px;
+    background-color: #aa0000;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    padding: 7px 0 0 0;
+    cursor: pointer;
+    
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+    }
+
+#botonCompletadas {
+    margin-left: 20px;
+    height: 40px;
+    width: auto;
+    background-color: #d9ff00;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+#botonPendientes {
+    margin-left: 20px;
+    height: 40px;
+    width: auto;
+    background-color: #ff5e00;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+
+
